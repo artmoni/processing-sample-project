@@ -27,7 +27,7 @@ public class Launcher extends PApplet {
 
     //loop indefinitly
     public void draw() {
-        background(255);
+        background(0);
         sampleBall.update();
         sampleBall.display();
     }
