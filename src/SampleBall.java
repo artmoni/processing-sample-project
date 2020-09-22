@@ -16,6 +16,7 @@ public class SampleBall {
 
     public void display() {
         this.processing.ellipse(position.x, position.y, 100, 100);
+        this.processing.ellipse(position.x, position.y/3, 100, 100);
     }
 
     public void update() {
