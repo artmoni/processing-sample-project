@@ -14,7 +14,7 @@ public class Launcher extends PApplet {
     }
 
     public void settings() {
-        fullScreen(P3D);
+        fullScreen();
     }
 
     SampleBall sampleBall = new SampleBall(this);
@@ -35,7 +35,7 @@ public class Launcher extends PApplet {
     @Override
     public void keyPressed() {
 
-		if (key == 'c' || key == 'C') {
+        if (key == 'c' || key == 'C') {
             System.out.println("keyPressed C");
         }
         if (key == 'b' || key == 'B') {

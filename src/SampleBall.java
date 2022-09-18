@@ -15,11 +15,10 @@ public class SampleBall {
     }
 
     public void display() {
-        this.processing.ellipse(position.x, position.y, 100, 100);
-        this.processing.ellipse(position.x, position.y/3, 100, 100);
+        this.processing.ellipse(position.x, position.y, size.x, size.y);
     }
 
     public void update() {
-        position.x++;
+        position.add(1, 0);
     }
 }
