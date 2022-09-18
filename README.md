@@ -1,4 +1,6 @@
 # Sample processing project for Git exercise
+## Documentation
+* https://processing.org/reference
 
 ## Retrieve the project
 
